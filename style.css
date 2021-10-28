@@ -1,0 +1,19 @@
+nav{
+  position:fixed;
+}
+
+#textORImage{
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+button{
+ background-color: chocolate;
+ border-radius: 10px;
+ width: 90px;
+ height: 50px
+}
+
+body{
+  background-color: pink;
+}

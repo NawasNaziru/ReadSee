@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>  
+    <meta charset="UTF-8"> 
+    <title>Vook</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+     <nav> 
+         <input type="file" onchange="fileText()"><br>
+         <span>
+         <button class="player">Play/Resume</button>
+         <button onclick="stop()">Pause</button>
+         <button onclick="nextStep()">forward</button>
+         <button class="stopPlay">Restart</button>
+         </span>
+     </nav>
+     <div id="textORImage"></div>
+     <audio><source src="" type="audio/mpeg"></audio>
+     
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1005.0.min.js"></script>
+     <script src="engine.js"></script>
+    </body>
+</html>
