@@ -5,6 +5,7 @@
     <title>Vook</title>
     <link rel="stylesheet" href="./style.css">
   </head>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
   <body>
      <nav> 
          <input type="file" onchange="fileText()"><br>
@@ -15,7 +16,13 @@
          <button class="stopPlay">Restart</button>
          </span>
      </nav>
-     <div id="textORImage"></div>
+     <div id="textORImage">
+       <p id="text"></p>
+       <figure id="figImage">
+         <img id="image">
+         <small><figcaption><span id="photoBy"></span><span><a href="" id="author"></a></span><span id="on"></span><span><a href="" id="unsplash"></a></span></figcaption></small>
+       </figure>
+     </div>
      <audio><source src="" type="audio/mpeg"></audio>
      
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
