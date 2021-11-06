@@ -7,6 +7,10 @@ nav{
   margin-right: 50%;
 }
 
+p{
+  font-size: 30px;
+}
+
 button{
  background-color: chocolate;
  border-radius: 10px;
@@ -16,4 +20,8 @@ button{
 
 body{
   background-color: pink;
+}
+
+caption{
+  font-size: 2px;
 }
