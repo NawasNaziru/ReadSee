@@ -12,6 +12,7 @@ p{
 }
 
 button{
+ display: block;
  background-color: chocolate;
  border-radius: 10px;
  width: 90px;
