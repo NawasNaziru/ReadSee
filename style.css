@@ -11,8 +11,8 @@ p{
   font-size: 30px;
 }
 
-button{
- display: block;
+button {
+ display: block !important;
  background-color: chocolate;
  border-radius: 10px;
  width: 90px;
