@@ -11,6 +11,10 @@ p{
   font-size: 30px;
 }
 
+#chooseFile{
+    font-size: 80px;
+  }
+
 button {
  display: block !important;
  font-weight: bold; 
