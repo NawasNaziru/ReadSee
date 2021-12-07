@@ -13,8 +13,8 @@ p{
 
 #chooseFile{
     font-size: 35px ! important;
-    width: 220px;
-    height: 120px;
+    width: 220px ! important;
+    height: 120px ! important;
   }
 
 button {
