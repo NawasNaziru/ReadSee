@@ -12,7 +12,9 @@ p{
 }
 
 #chooseFile{
-    font-size: 80px;
+    font-size: 35px ! important;
+    width: 220px;
+    height: 120px;
   }
 
 button {
@@ -24,7 +26,7 @@ button {
  border-radius: 10px;
  width: 220px;
  height: 120px;
- font-size: 80px;
+ font-size: 35px;
 }
 
 body{
