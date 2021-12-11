@@ -12,15 +12,7 @@
   </head>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
   <body>
-     
-         <input id="chooseFile" type="file" onchange="fileText()"><br>
-         
-         <button class="player">PLAY/RESUME</button>
-         <button onclick="stop()">PAUSE</button>
-         <button onclick="nextStep()">FORWARD</button>
-         <button class="stopPlay">RESTART</button>
-         
-     
+         <input id="chooseFile" type="file" onchange="fileText()"><br>         
      <div id="textORImage">
        <p id="text"></p>
        <figure id="figImage">
@@ -29,12 +21,18 @@
        </figure>
      </div>
      <audio><source src="" type="audio/mpeg"></audio>
+     <button class="player">PLAY/RESUME</button>
+      <button onclick="stop()">PAUSE</button>
+      <button onclick="nextStep()">FORWARD</button>
+      <button class="stopPlay">RESTART</button>
      <footer>
+     <small>
       <p>Created by:</p>
       <p>Nawas Naziru Adam</p>
       <p><a href="mailto: nawasnaziru@gmail.com">nawasnaziru@gmail.com</a></p>
       <p>&copy; Copyright 2021 ReadSee</p>
       <p> by Nawas</p>
+     </small>
      </footer>
 
        
